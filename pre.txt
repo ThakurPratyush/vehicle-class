@@ -1,0 +1,2 @@
+dir | Rename-Item -NewName{$_.name -replace ".jpg",""}
+dir | Rename-Item -NewNamw{$_.name + "_Car.jpg"}
